@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Surveying Total Station / Theodolite Icon centered in 66dp safe zone (21dp to 87dp) -->
+    
+    <!-- Outer target reticle rings -->
+    <path
+        android:pathData="M54,28 A26,26 0 1 1 53.9,28 Z"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.4" />
+    <path
+        android:pathData="M54,34 A20,20 0 1 1 53.9,34 Z"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7" />
+
+    <!-- Crosshair ticks -->
+    <path
+        android:pathData="M54,24 L54,30 M54,78 L54,84 M24,54 L30,54 M78,54 L84,54"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Telescope Barrel / Theodolite Core -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M38,49 L70,49 L68,45 L40,45 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M36,48 L36,60 L72,60 L72,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-7,0 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0" />
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M54,54 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+
+    <!-- Theodolite Trunnion Axis and Standards -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M44,60 L42,70 L66,70 L64,60 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M39,70 L69,70 L67,74 L41,74 Z" />
+
+    <!-- Tripod head and legs -->
+    <path
+        android:pathData="M44,74 L32,86 M54,74 L54,87 M64,74 L76,86"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+</vector>

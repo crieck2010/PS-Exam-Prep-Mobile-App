@@ -1,0 +1,6 @@
+{
+  "name": "PS Exam Prep",
+  "description": "Comprehensive NCEES Principles and Practice of Surveying (PS) Exam preparation featuring domain-specific practice questions, detailed answer explanations, streak tracking, and strengths/weaknesses diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
